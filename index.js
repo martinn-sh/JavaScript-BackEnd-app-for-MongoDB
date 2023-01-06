@@ -6,4 +6,4 @@ require('./startup/db')()
 require('./startup/validationObjectId')()
 
 const port = process.env.PORT || 5000
-app.listen(port, () => logger.info(`App avaiable on http://localhost:${port}`))
+app.listen(port, () => console.log(`App avaiable on http://localhost:${port}`))
